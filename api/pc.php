@@ -1,6 +1,6 @@
 <?php
 //读取文本
-$str = explode("\n", file_get_contents('pc1.txt'));
+$str = explode("\n", file_get_contents('api/pc1.txt'));
 $k = rand(0,count($str));
 $sina_img = str_re($str[$k]);
 

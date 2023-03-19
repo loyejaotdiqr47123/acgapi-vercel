@@ -17,11 +17,11 @@
         <p>目前系统共收录 3k8+ 张图片 API最后更新时间:2022-07-14</p>
         <p>图片均为https，采用bobocloud智能存储，高速访问</p>
   <p>自判断二次元API基本调用格式：</p>
-        <pre><a href="<?php $_SERVER['HTTP_HOST'] ?>/api.php" target="_blank"><?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/api.php</a></pre>
+        <pre><a href="<?php $_SERVER['HTTP_HOST'] ?>/api/api.php" target="_blank"><?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/api/api.php</a></pre>
         <p>PC随机二次元API</p>
-        <pre><a href="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/pc.php" target="_blank"><?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/pc.php</a></pre>
+        <pre><a href="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/api/pc.php" target="_blank"><?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/api/pc.php</a></pre>
         <p>手机随机二次元API</p>
-        <pre><a href="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/pe.php" target="_blank"><?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/pe.php</a></pre>
+        <pre><a href="<?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/api/pe.php" target="_blank"><?php echo 'https://'.$_SERVER['HTTP_HOST'] ?>/api/pe.php</a></pre>
   
         <p>请求方式</p>
         <pre>get/post</pre>
